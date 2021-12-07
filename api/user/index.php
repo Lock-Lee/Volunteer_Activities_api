@@ -5,7 +5,6 @@ header("Content-Type: application/json; charset=UTF-8");
 header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept");
 
 require_once("../../src/token.php");
-
 session_start();
 require_once('../../models/UserModel.php');  
 $user_model = new UserModel; 
